@@ -1,0 +1,40 @@
+/* BIT607_A3 – Vaibhav Tyagi_5118765_styles.css */
+
+/* Purpose: Remove any default spacing from all elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;/* Purpose: Makes width and padding uniform */
+}
+
+/* Purpose: Default font and text spacing for page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Purpose: Custom branding button colour and hover colour */
+.btn-primary {
+  background-color: #d8c9f7;
+  border-color: #d8c9f7;
+  color: #090909;
+}
+
+.btn-primary:hover {
+  background-color: #39345d;
+  border-color: #39345d;
+  color: #ffffff;
+}
+
+/* Purpose: Hero/ banner image */
+.banner {
+  max-height: 450px;
+  object-fit: cover;
+}
+
+/*  Purpose: hover zoom for all images */
+img:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}

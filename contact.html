@@ -1,0 +1,162 @@
+<!-- BIT607_A3 – Vaibhav Tyagi_5118765_contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Unique meta description -->
+  <meta name="description" content="Get in touch with Snazzy Paws Grooming in Hamilton - Our friendly team is ready to help with all your pet grooming needs.">
+
+  <title>Snazzy Paws Grooming | Contact</title><!-- Page title shown in browser tab -->  
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+   <!-- Link to CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- ===== Header section ===== -->
+    <header>
+    <!-- ===== Navigation Bar ===== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-rounded shadow"> 
+      <div class="container">
+
+        <!-- Brand / Logo area-->
+        <a class="navbar-brand fw-bold" href="index.html"> <img src="./images/logo.png" alt="Snazzy paws logo">
+          Snazzy Paws Grooming
+        </a>
+
+        <!-- Mobile menu toggle -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav"
+                aria-controls="mainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Mobile friendly nav-->
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="roster.html" onclick="return confirm('Staff only. Login required.');">
+                Staff Access
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    </header>
+
+<!-- ===== Main Content ===== -->
+<main class="container py-5">
+
+  <!-- Page heading -->
+  <h1 class="text-center mb-5">Get in Touch</h1>
+
+  <div class="row g-5">
+
+    <!-- Contact details section -->
+    <div class="col-lg-6">
+
+      <h2 class="mb-3">Our Location & Contact</h2>
+
+      <table class="table table-bordered">
+        <thead class="table-light">
+          <tr>
+            <th colspan="2">Need help? call, email us or visit our store</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Email</strong></td>
+            <td>support@snazzypaws.com</td>
+          </tr>
+          <tr>
+            <td><strong>Phone</strong></td>
+            <td>0800 900 PAWS</td>
+          </tr>
+          <tr>
+            <td><strong>Address</strong></td>
+            <td>Shop 10, Hamilton Gardens, Hungerford Crescent, Hamilton 3216</td>
+          </tr>
+          <tr>
+            <td><strong>Hours</strong></td>
+            <td>Mon – Sat: 8am – 5pm</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Google Map showing store map pin -->
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112212.7966265122!2d175.24838999999997!3d-37.777821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6d1f297e2c58a3%3A0xf00ef62249d2b80!2sHamilton%20Gardens!5e1!3m2!1sen!2snz!4v1768345630143!5m2!1sen!2snz"
+          allowfullscreen
+          loading="lazy"
+          title="Snazzy Paws Grooming Location">
+        </iframe>
+      </div>
+
+    </div>
+
+    <!-- Contact us form -->
+    <div class="col-lg-6">
+
+      <h2 class="mb-3">Send Us a Message</h2>
+
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Your full name" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="emailcontact" class="form-label">Email</label>
+          <input type="email" id="emailcontact" class="form-control" placeholder="you@example.com" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" id="phone" class="form-control" placeholder="Optional">
+        </div>
+
+        <div class="mb-3">
+          <label for="comment" class="form-label">Message</label>
+          <textarea id="comment" rows="4" class="form-control" placeholder="Write your message here"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      </form>
+
+    </div>
+
+  </div>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="bg-light text-center py-3 mt-5">
+  <p class="mb-0">&copy; 2026 Snazzy Paws Grooming</p>
+  <p class="mb-0">
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
+</footer>
+
+<!-- Bootstrap Js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

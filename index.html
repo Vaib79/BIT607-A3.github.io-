@@ -1,0 +1,107 @@
+<!-- BIT607_A3 – Vaibhav Tyagi_5118765_index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Unique meta description -->
+    <meta name="description" content="Snazzy Paws Grooming - Expert pet groomers in Hamilton.">
+
+    <title>Snazzy Paws Grooming | Home</title>  <!-- Page title shown in browser tab --> 
+
+
+
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- ===== Header section ===== -->
+    <header>
+    <!-- ===== Navigation Bar ===== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-rounded shadow"> 
+      <div class="container">
+
+        <!-- Brand / Logo area-->
+        <a class="navbar-brand fw-bold" href="index.html"> <img src="./images/logo.png" alt="Snazzy paws logo">
+          Snazzy Paws Grooming
+        </a>
+
+        <!-- Mobile friendly nav-->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNav"
+                aria-controls="mainNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation menu links -->
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="roster.html" onclick="return confirm('Staff only. Login required.');">
+                Staff Access
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    </header>
+
+    <!-- ===== Main Content ===== -->
+    <main class="container py-5 text-center">
+
+      <h1 class="mb-4">Welcome to Snazzy Paws Grooming</h1>
+
+      <!-- Hero image -->
+      <img 
+        src="./images/HeroImg.png" 
+        alt="Dog being groomed at Snazzy Paws" 
+        class="img-fluid rounded mb-4">
+
+      <!-- Quick Intro to business -->
+      <p class="lead">
+        At Snazzy Paws Grooming, we believe every pet deserves gentle care and individual attention.</p>
+        <p>Our professional grooming services are designed to keep your best friend comfortable, happy, and looking their best. <br>Proudly serving Hamilton with quality you can trust.</p>
+
+      <p class="mb-4">
+        Proudly serving Hamilton with quality and care you can rely on.
+      </p>
+
+      <!-- Buttons for quick action -->
+      <div class="d-flex justify-content-center gap-3">
+        <a href="booking.html" class="btn btn-primary">Book Now</a>
+        <a href="services.html" class="btn btn-primary">View Services</a>
+      </div>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="bg-light text-center py-3 mt-5">
+      <div class="container">
+        <p class="mb-0">&copy; 2026 Snazzy Paws Grooming</p>
+        <p class="mb-0">
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
